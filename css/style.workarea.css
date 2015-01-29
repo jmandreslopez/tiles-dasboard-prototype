@@ -1,0 +1,98 @@
+#workarea { position: absolute; top: 70px; left: 0px; right: 0px; bottom: 0px }
+#gremlin-cabling { position: absolute; top: 230px; left: 50px; width: 3px; height: 40px; background: #000 }
+#gremlin { position: absolute; top: 270px; left: 25px; width: 50px; height: 50px; background: #5F5 }
+#peripheral-cabling { position:absolute; top: 230px; left: 150px; width: 3px; height: 40px; background: #000 }
+#peripheral { position: absolute; top: 270px; left: 125px; width: 150px; height: 50px; background: #5F5 }
+
+#zoom-1 { position:absolute; top: 0; left: 0; bottom: 0; right: 250px; padding: 0px 10px 10px 10px }
+#zoom-1 .content-level-1 { padding: 10px; background-image: url('../images/background_workarea.png'); background-size: 100%; display: inline-block }
+#zoom-1 .tile-container { padding:5px; margin:0; border:0 }
+#zoom-1 .tile-row { padding:0; margin:0; border:0 }
+#zoom-1 .tile-cell { padding:0; margin:0; border:0 }
+#zoom-1 .tile { width:5px; height:5px; display:block; border:0 }
+#zoom-1 .active { background:#5F5 }
+#zoom-1 .failure { background:#F00 }
+#zoom-1 .abnormal { background:#E0E000 }
+#zoom-1 .warning { background:#CF6700 }
+
+#zoom-2 { position: absolute; top: 0; left: 0; bottom: 0; right: 250px; display: none; padding: 0px 10px 10px 10px; overflow: hidden }
+#zoom-2 .content-level-2 { background-image: url('../images/background_workarea.png'); background-size: 100%; display: inline-block; width: 100%; height: 100%; padding:10px; }
+#zoom-2 .row { width: 1001px; height: 50px; margin-left: 0px; display: block; padding-right: 20px }
+#zoom-2 .tile { width: 49px; height: 49px; border-top: 1px solid #000; border-left: 1px solid #000; display: block; position: relative }
+#zoom-2 .tile a { width: 49px; height: 33px; color: #FFF; text-decoration:none; display: block; text-align: center; padding-top: 15px }
+#zoom-2 .active { background: #3C8E05 }
+#zoom-2 .failure { background: #C20B21 }
+#zoom-2 .abnormal { background: #E0E000 }
+#zoom-2 .abnormal a { color: #000 }
+#zoom-2 .warning { background: #CF6700 }
+#zoom-2 .last-col { border-right: 1px solid #000 }
+
+#zoom-3 { position: absolute; top: 0; left: 0; bottom: 0; right: 250px; display: none; padding: 0px 10px 10px 10px; overflow: hidden }
+#zoom-3 .content-level-3 { background-image: url('../images/background_workarea.png'); background-size: 100%; display: inline-block; width: 100%; height: 100%; padding:10px }
+#zoom-3 .row { width: 3001px; height: 150px; margin-left: 0px; display: block; padding-right: 20px }
+#zoom-3 .tile-general { width: 149px; height: 149px; border-top: 1px solid #000; border-left: 1px solid #000; display: block; position: relative; background: #FFF }
+#zoom-3 .tile { width: 149px; height: 30px; color: #FFF; text-align: center }
+#zoom-3 .tile a { width: 149px; height: 25px; color: #FFF; text-align: center; padding-top: 5px; display: block; text-decoration: none }
+#zoom-3 .tile.active { background: #3C8E05 }
+#zoom-3 .tile.failure { background: #C20B21 }
+#zoom-3 .tile.abnormal { background: #E0E000 }
+#zoom-3 .tile.abnormal a { color: #000 }
+#zoom-3 .tile.warning { background: #CF6700 }
+#zoom-3 .last-col { border-right: 1px solid #000 }
+#zoom-3 .tile-content { width: 149px; height: 119px; position: absolute; top: 30px }
+#zoom-3 .tile-component.topleft { width: 33px; height: 33px; position: absolute; top: 20px; left: 25px; background: url('../images/device_1.png') no-repeat }
+#zoom-3 .tile-component.topright { width: 33px; height: 33px; position: absolute; top: 20px; right: 25px; background: url('../images/device_2.png') no-repeat }
+#zoom-3 .tile-component.bottomleft { width: 33px; height: 33px; position: absolute; bottom: 20px; left: 25px; background: url('../images/device_3.png') no-repeat }
+#zoom-3 .tile-component.bottomright { width: 33px; height: 33px; position: absolute; bottom: 20px; right: 25px; background: url('../images/device_4.png') no-repeat }
+
+#zoom-3 .topleft.component-active { background: url('../images/device_1_active.png') no-repeat !important }
+#zoom-3 .topright.component-active { background: url('../images/device_2_active.png') no-repeat !important }
+#zoom-3 .bottomleft.component-active { background: url('../images/device_3_active.png') no-repeat !important }
+#zoom-3 .bottomright.component-failure { background: url('../images/device_4_failure.png') no-repeat !important }
+
+.selected { background: #6cff09 !important }
+.selected.active { background: #6cff09 !important }
+.selected.failure { background: #F20E29 !important }
+.selected.abnormal { background: #FFFF00 !important }
+.selected.warning { background: #FF8000 !important }
+.selected.gremlin { background: #FF8000 !important }
+
+.cabling { position: absolute; background: #002A51; z-index: 2; display: none }
+.cabling.horizontal { top: 10px; right: -7px; width: 14px; height: 2px }
+.cabling.vertical { bottom: -7px; right: 10px; width: 2px; height: 14px }
+.cabling.first { bottom: -7px; left: 10px; width: 2px; height: 14px; }
+.cabling.none { display: none }
+
+.inverse { transform: rotateY(180deg); -moz-transform: rotateY(180deg); -webkit-transform: rotateY(180deg); -ms-transform: rotateY(180deg); -o-transform: rotateY(180deg) }
+
+.content-level-1 .display { width: 696px; height: 362px; background: url('../images/display.png') no-repeat; display: block; position: relative }
+.content-level-1 .display a { width: 696px; height: 362px; display: block; position: absolute; top: 0px; left: 0px }
+.content-level-1 .devices { width: 696px; height: 70px;  display: block; position: relative }
+.content-level-1 .devices a { width: 42px; height: 42px; text-decoration: none; display: block }
+.content-level-1 .arrow { position: absolute; top: 2px; left: 185px; width: 9px; height: 20px; background: url('../images/arrow_vertical.png') no-repeat; display: block }
+.content-level-1 .gremlins { position: absolute; top: 24px; left: 160px; width: 58px; height: 58px; border-top: 1px solid #075698; border-left: 1px solid #075698;  border-right: 1px solid #075698 }
+.content-level-1 .gremlin { width: 42px; height: 42px; background: #CF6700; display: block; margin: 8px; float: left }
+.content-level-1 .peripherals { position: absolute; top: 24px; left: 300px; width: 116px; height: 58px; border-top: 1px solid #075698; border-left: 1px solid #075698; border-right: 1px solid #075698 }
+.content-level-1 .peripheral { width: 42px; height: 42px; background: #3C8E05; display: block; margin: 8px; float: left }
+
+.content-level-2 .devices { width: 696px;  height: 100px;  display: block; position: relative }
+.content-level-2 .devices a { width: 42px; height: 42px; text-decoration: none; display: block }
+.content-level-2 .arrow { position: absolute; top: 2px; left: 185px; width: 9px; height: 20px; background: url('../images/arrow_vertical.png') no-repeat; display: block }
+.content-level-2 .gremlins { position: absolute; top: 24px; left: 160px; width: 58px; height: 58px; border-top: 1px solid #075698; border-left: 1px solid #075698; border-right: 1px solid #075698 }
+.content-level-2 .gremlin { width: 42px; height: 42px; background: #CF6700; display: block; margin: 8px; float: left }
+.content-level-2 .gremlin a { width: 42px; height: 30px; color: #FFF; text-decoration:none; display: block; text-align: center; padding-top: 12px }
+.content-level-2 .peripherals { position: absolute; top: 24px; left: 300px; width: 116px; height: 58px; border-top: 1px solid #075698; border-left: 1px solid #075698; border-right: 1px solid #075698 }
+.content-level-2 .peripheral { width: 42px; height: 42px; background: #3C8E05; display: block; margin: 8px; float: left }
+.content-level-2 .peripheral a { width: 42px; height: 30px; color: #FFF; text-decoration:none; display: block; text-align: center; padding-top: 12px }
+
+.content-level-3 .devices { width: 1000px; height: 200px; display: block; position: relative }
+.content-level-3 .devices a { width: 148px; height: 148px; text-decoration: none; display: block }
+.content-level-3 .arrow { position: absolute; top: 2px; left: 240px; width: 9px; height: 20px; background: url('../images/arrow_vertical.png') no-repeat; display: block }
+.content-level-3 .gremlins { position: absolute; top: 24px; left: 160px; width: 170px; height: 160px; border-top: 1px solid #075698; border-left: 1px solid #075698; border-right: 1px solid #075698 }
+.content-level-3 .gremlin { width: 150px; height: 150px; background: #CF6700; display: block; margin: 10px; float: left }
+.content-level-3 .gremlin a { width: 150px; height: 85px; color: #FFF; text-decoration:none; display: block; text-align: center; padding-top: 65px }
+.content-level-3 .peripherals { position: absolute; top: 24px; left: 500px; width: 340px; height: 160px; border-top: 1px solid #075698; border-left: 1px solid #075698; border-right: 1px solid #075698 }
+.content-level-3 .peripheral { width: 150px; height: 150px; background: #3C8E05; display: block; margin: 10px; float: left }
+.content-level-3 .peripheral a { width: 150px; height: 86px; color: #FFF; text-decoration:none; display: block; text-align: center; padding-top: 65px }
+
+.no-background { background: none !important }

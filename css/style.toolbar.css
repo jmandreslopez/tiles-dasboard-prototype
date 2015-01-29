@@ -1,0 +1,38 @@
+#toolbar { position:absolute; top: 0px; left: 0px; right: 0px; height: 70px; z-index: 7 }
+#toolbar .title { color: #6e9ab0; font-size: 24px; margin: 25px 0px 0px 10px; position: absolute }
+#toolbar a { color: #607996; text-decoration: none; font-size: 12px }
+#toolbar-content { margin-right: 300px }
+#toolbar-content .mode-selector { margin: 25px 0px 0px 5px }
+.mode-selector .dropdown-menu { min-width: 85px !important }
+#toolbar-content .mode-clear { margin: 21px 0px 0px 10px }
+#toolbar-content .divider { font-size: 30px; color: #0F2233; margin: 24px 3px 0px 8px }
+#toolbar-content div { float: left; margin: 20px 0px 0px 5px }
+.mode-selector .dropdown-menu a { color: #92DFED !important }
+.mode-selector .caret { border-top: 4px solid #3878B3 !important }
+#zoom-slider { width: 90px; height: 16px; background: #000; display: block; position: absolute; margin: 0 !important; top: 6px; left: 12px; right: 12px; background: url('../images/toolbar_slider.png') repeat-x }
+
+#clear { width: 39px; height: 30px; background: url('../images/clear.png') no-repeat; display: block }
+#clear:active { background: url('../images/clear_over.png') no-repeat }
+
+#cabling { width: 30px; height: 30px; display: block }
+#cabling.cabling-off { background: url('../images/icon_t1.png') no-repeat }
+#cabling.cabling-on { background: url('../images/icon_t1_on.png') no-repeat }
+
+#front-view { width: 30px; height: 30px; display: block; background: url('../images/icon_t2.png') no-repeat } 
+#front-view.botton-selected { background: url('../images/icon_t2_on.png') no-repeat }
+#rear-view { width: 30px; height: 30px; display: block; background: url('../images/icon_t3.png') no-repeat; }
+#rear-view.botton-selected { background: url('../images/icon_t3_on.png') no-repeat } 
+#video-view { width: 30px; height: 30px; display: block; background: url('../images/icon_t4.png') no-repeat }
+#video-view.botton-selected { background: url('../images/icon_t4_on.png') no-repeat }
+
+#best-fit { width: 30px; height: 30px; display: block; background: url('../images/icon_t5.png') no-repeat }
+#best-fit:active { background: url('../images/icon_t5_on.png') no-repeat }
+
+#full-screen { width: 30px; height: 30px; display: block }
+#full-screen.full-off { background: url('../images/icon_t6.png') no-repeat }
+#full-screen.full-on { background: url('../images/icon_t6_on.png') no-repeat }
+
+#zoom-in { width: 30px; height: 30px; display: block; background: url('../images/icon_t7.png') no-repeat }
+#zoom-in:active { background: url('../images/icon_t7_on.png') no-repeat }
+#zoom-out { width: 30px; height: 30px; display: block; background: url('../images/icon_t8.png') no-repeat }
+#zoom-out:active { background: url('../images/icon_t8_on.png') no-repeat }

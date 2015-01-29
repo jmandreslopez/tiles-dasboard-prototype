@@ -1,0 +1,8 @@
+html, body { padding: 0px; margin: 0px; min-height: 100%; height: 100%; background: #001223 }
+#wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto; position: relative; background: url('../images/background.png') bottom repeat-x }
+*:focus { outline: 0 none }
+.left { float: left }
+.right { float: right }
+ul.dropdown-menu { background-color: #055798 }
+ul.dropdown-menu li a{ color: #92DFED }
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a { background: #001830 !important; color: #92DFED !important }

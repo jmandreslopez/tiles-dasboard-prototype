@@ -1,0 +1,23 @@
+#header { height: 95px; background: #001223 }
+#header-content { height: 94px; border-bottom: 1px solid #002a51 !important }
+#logo { width: 119px; height: 59px; margin: 23px 0px 0px 37px }
+#logo a { border: none; text-decoration: none; width: 119px; height: 59px; display: block }
+
+#user-controls { margin-right: 80px; padding-top: 28px }
+#user { margin: 10px }
+#user img { margin-top: -5px }
+#user a.dropdown-toggle { color: #607996; text-decoration: none; font-size: 12px }
+#user .dropdown-menu { min-width: 85px !important }
+#user .caret { border-top: 4px solid #3878B3 !important }
+
+#profile { margin: 10px }
+#profile img { margin-top: -2px }
+#profile a.dropdown-toggle { color: #607996; text-decoration: none; font-size: 12px }
+#profile .dropdown-menu { min-width: 125px !important }
+#profile .caret { border-top: 4px solid #3878B3 !important }
+
+#notifications { width: 57px; height: 18px; margin: 10px }
+#notifications #message { width: 24px; height: 18px; background: url('../images/message.png') no-repeat }
+#notifications #message .link { width: 24px; height: 18px; display: block; border: 0; text-decoration: none }
+#notifications #tooltip { width: 33px; height: 18px; background: url('../images/message_tooltip.png') no-repeat }
+#notifications #tooltip a.dropdown-toggle { font-size: 12px; color: #000; text-decoration: none; margin-left: 8px; position: absolute; top: -1px }

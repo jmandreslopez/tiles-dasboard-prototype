@@ -1,0 +1,36 @@
+#nav { position: absolute; width: 155px; top: 95px; left: 0px; bottom: 0px; z-index: 10; background: #001830 url('../images/background.png') bottom repeat-x }
+.main-menu ul { padding: 0px; margin: 15px 0px 0px 0px }
+.main-menu li{ list-style: none; padding: 16px 0px 16px 30px; background: url('../images/nav_pattern.png') repeat-x; background-position: bottom }
+.main-menu img { margin-top: -3px }
+.main-menu a { font-size: 12px; color: #607996; height: 27px; display: block; text-decoration: none }
+
+.navg { position: absolute; display: none; width: 140px; top: 95px; left: 85px; bottom: 0px; z-index: 10; background: #055798 url('../images/background.png') bottom repeat-x; margin-bottom: 0px !important }
+.navg ul { padding: 0px; margin: 0px }
+.navg li { list-style: none; padding-top: 5px }
+.navg li:hover { background: #022a4c }
+.navg .title { float: right; padding-top: 5px; color: #80a4c0; font-size: 11px }
+.navg .menu { clear: both; display: block; width: 120px; height: 30px; border-bottom: 1px solid #236ba5; padding: 5px 10px }
+.navg a.menu { text-decoration: none; color: #92dfed }
+.navg .menu .text { margin-left: 5px; font-size: 11px }
+.navg a.menu:hover { text-decoration: none !important; color: #92dfed !important }
+.nav-control { position: absolute; top: 0px; right: -5px }
+.control { display: block; clear: both }
+.tool-control  { clear: both; display: block; width: 150px; height: 30px; border-bottom: 1px solid #236ba5; padding: 5px 10px } 
+.nav-control img.rotate{ transform: rotate(180deg); -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg) }
+.nav-control a { text-decoration: none }
+.control a, .tool-control a  { text-decoration: none; padding-top: 3px }
+.tool { position: absolute; display: none; width: 170px; height: 170px; left: 140px; z-index: 10; background: #001830 url('../images/background.png') bottom repeat-x }
+
+#nav-1-tool-1 { top: 0px }
+#nav-1-tool-2 { top: 46px }
+#nav-1-tool-3 { top: 92px }
+#nav-1-tool-4 { top: 138px }
+#nav-1-tool-5 { top: 184px }
+#nav-1-tool-6 { top: 230px }
+#nav-2-tool-5 { top: 0px; width: 230px; height: 222px }
+#nav-2-tool-5 .tool-control { width: 210px }
+#nav-2-tool-6 { top: 46px; width: 227px; height: 178px }
+#nav-2-tool-6 .tool-control { width: 207px }
+
+#rgb-tool { 	width: 230px; height: 181px; background: url('../images/tool_1.png') no-repeat }
+#location-tool { width: 227px; height: 137px; background: url('../images/tool_2.png') no-repeat }
